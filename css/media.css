@@ -1,0 +1,20 @@
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 400px) {
+	.brand img{width: 150px;margin-top: 14px;}
+	.where-we-featured h3{background:none}	
+}
+
+@media only screen and (min-width : 1200px){
+	.nav>li>a{margin-left:5em;}
+	.carousel-inner{height:450px;}
+	.carousel-inner>.active{height:100%;}
+}
+
+@media (min-width: 768px){
+	.navbar-right{ margin-top:10px;}
+	#contact {padding: 150px 0;}
+}
+
+@media (max-width:990px){
+	.featured-list li{border:none;}
+}
